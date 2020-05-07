@@ -3,7 +3,7 @@ package com.java.peformance;
 class FindingNemo {
 	  public static void main(String[] args) {
 	    String[] nemo = {"nemo"};
-	    findNemo(nemo);
+	    findNemo(nemo); // O(n) : linear time
 	  }
 
 	  public static void findNemo(String[] nemo){
